@@ -1,0 +1,96 @@
+.navbar-expand-lg {
+    background-color: rgb(45, 206, 192);
+}
+body {
+    background: url(Aura_Saha_Swatch_1024x1024.webp);
+    background-repeat: no-repeat;
+    
+}
+.fon {
+    width: 100%;
+    height: 950px;
+    position: absolute;
+}
+.me {
+    position: absolute;
+    width: 600px;
+    height: 550px;
+    border-radius: 10%;
+    left: 60%;
+    top: 20%;
+}
+.textme {
+    position: absolute;
+    font-size: 40px;
+    top: 30%;
+    left: 10%;
+    text-align: justify;
+	width: 600px;
+}
+.btn-outline-dark {
+    position: absolute;
+    top: 100%;
+}
+.fixed-bottom {
+    background-color: rgb(45, 206, 192);
+    height: 60px;
+}
+.credits {
+    text-align: center;
+    padding-top: 20px
+}
+button a{
+    text-decoration: none;
+    color: black;
+    
+}
+@media ( max-width: 1200px) {
+    .me {
+        width: 450px;
+        height: 400px;
+        top: 200px;
+    }
+    .textme {
+        font-size: 40px;
+        left: 50px;
+    }
+}
+@media ( max-width: 768px) {
+    .me {
+        position: relative;
+        left: 140px;
+        width: 500px;
+        height: 450px;
+        top: 430px;
+    }
+    .textme {
+        position: relative;
+        bottom: 400px;
+    }
+}
+@media ( max-width: 320px) {
+    .fon{
+        width: 700px;
+    }
+    .me{
+        position: relative;
+        top: 10px;
+        left: 100px;
+        width: 500px ;
+        height: 450px;
+    }
+    .navbar{
+        width: 700px;
+    }
+    .textme {
+        font-size: 35px;
+        position: relative;
+        top: 50px;
+    }
+    .btn-outline-dark,.btn {
+        position: absolute;
+        top: 300px;
+        left: 5px;
+    }
+}
+
